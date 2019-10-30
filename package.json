@@ -1,0 +1,10 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Dan Martens <dan@friendsoftheweb.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.18.3"
+  }
+}
