@@ -8,12 +8,16 @@ Install dependencies:
 $ yarn add --dev eslint @ftw/eslint-config-ts
 ```
 
-Create an `.eslintrc.js` file in the root of your project:
+Create an `.eslintrc` file in the root of your project:
 
-```javascript
-module.exports = {
-  extends: ['@ftw/eslint-config-ts']
-};
+```json
+{
+  "extends": ["@ftw/eslint-config-ts"],
+  "env": {
+    "node": true,
+    "browser": true
+  }
+}
 ```
 
 Add a `lint` script to your `package.json`:
