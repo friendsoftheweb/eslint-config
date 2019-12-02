@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Dan Martens <dan@friendsoftheweb.com>",
   "license": "MIT",
+  "scripts": {
+    "publish": "lerna publish"
+  },
   "devDependencies": {
     "lerna": "^3.18.3"
   }

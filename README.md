@@ -27,3 +27,7 @@ Add a `lint` script to your `package.json`:
   "lint": "eslint \"client/**/*.{js,ts,tsx}\""
 }
 ```
+
+# Publishing
+
+You can publish a new version of the package by running `yarn publish`. Lerna will prompt you to choose new version numbers before the package is published.
