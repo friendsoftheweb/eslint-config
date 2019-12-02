@@ -1,6 +1,6 @@
 {
   "name": "@ftw/eslint-config-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An ESLint configuration for projects using TypeScript.",
   "author": "Dan Martens <dan@friendsoftheweb.com>",
   "license": "MIT",
